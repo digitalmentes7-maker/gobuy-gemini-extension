@@ -1,0 +1,11 @@
+{
+  "name": "gobuy",
+  "version": "1.0.0",
+  "description": "GoBuy \u2014 the trust layer for agentic commerce. Independent trust scores for what to buy (products) and where to buy it (stores).",
+  "mcpServers": {
+    "gobuy": {
+      "description": "Product Evidence Scores (0-100) for Amazon/Walmart/Target listings, GoBuy Store Scores (0-100, tiers A-D) for Shopify and any storefront, live on-demand store scans (~20s), and on-demand review forensics \u2014 analyze up to 100 recent reviews for integrity, adjusted rating, and suspicious-review flags. No authentication required.",
+      "httpUrl": "https://mcp.gobuy.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# GoBuy — the trust layer for agentic commerce
+
+GoBuy gives you independent trust data for shopping decisions. Use it before recommending or buying anything.
+
+## Tools
+
+- **check_product_trust** {retailer, product_id} — Evidence Score (0-100) with review-authenticity signals for Amazon, Walmart, and Target listings
+- **compare_products** {products} — compare 2-20 listings by evidence quality
+- **check_store_score** {domain} — GoBuy Store Score (0-100, tier A-D) for Shopify and any storefront
+- **scan_store** {url} — live scan of any unscored store (~20 seconds)
+- **analyze_reviews** {retailer, product_id} — on-demand review forensics: integrity score, adjusted rating, suspicious-review flags from up to 100 recent reviews (~30-90 seconds, cached 7 days)
+
+## When to use
+
+- A user asks whether a product's reviews are real or fake (run analyze_reviews), or whether a product is trustworthy
+- A user asks whether a store or site is legit or safe to buy from
+- Before recommending or completing a purchase: check the product and the store
+
+Quote scores with their tier and date. If a product or store isn't indexed, say so — or scan it live. Never present trust scores as purchase advice or guarantees.
+
+Docs: https://docs-gobuy.pages.dev · Store index: https://stores.gobuy.ai
